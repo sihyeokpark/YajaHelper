@@ -18,6 +18,46 @@ export default function Home() {
         <nav>
           
         </nav>
+        <section className={styles.container}>
+          <h1>hello</h1>
+          <br></br>
+          <div className={styles.member}>
+            <h1>10 박시혁</h1>
+          </div>
+          <div className={styles.member}>
+            <h1>10 박시혁</h1>
+          </div>
+          <div className={styles.member}>
+            <h1>10 박시혁</h1>
+          </div>
+          <div className={styles.member}>
+            <h1>10 박시혁</h1>
+          </div>
+          <div className={styles.member}>
+            <h1>10 박시혁</h1>
+          </div>
+          <div className={styles.member}>
+            <h1>10 박시혁</h1>
+          </div>
+          <div className={styles.member}>
+            <h1>10 박시혁</h1>
+          </div>
+          <div className={styles.member}>
+            <h1>10 박시혁</h1>
+          </div>
+          <div className={styles.member}>
+            <h1>10 박시혁</h1>
+          </div>
+          <div className={styles.member}>
+            <h1>10 박시혁</h1>
+          </div>
+          <div className={styles.member}>
+            <h1>10 박시혁</h1>
+          </div>
+          <div className={styles.member}>
+            <h1>10 박시혁</h1>
+          </div>
+        </section>
       </main>
     </>
   )

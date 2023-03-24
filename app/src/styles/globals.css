@@ -5,8 +5,10 @@
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
 
-  --background-color: #ffffff;
+  --background-color: #fbfbfb;
   --pink-text: #E83C77;
+  --black-text: #000000;
+  --white-card: #ffffff;
 }
 
 * {

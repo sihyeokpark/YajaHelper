@@ -1,9 +1,29 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
   min-height: 100vh;
+}
+
+section.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  width: 70vw;
+  gap: 10px;
+}
+
+div.member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 10vw;
+  height: 10vh;
+  background-color: var(--white-card);
+  border-radius: 10px;
+  color: var(--black-text);
 }
 
 /* Mobile */
