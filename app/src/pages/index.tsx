@@ -3,6 +3,8 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 
+import User from './components/User'
+
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -20,43 +22,10 @@ export default function Home() {
         </nav>
         <section className={styles.container}>
           <h1>1학년 6반</h1>
-          <section className={`${styles.cards} ${styles.check}`}>
-            <div className={styles.member}>
-              <h1>10 박시혁</h1>
-            </div>
-            <div className={styles.member}>
-              <h1>10 박시혁</h1>
-            </div>
-            <div className={styles.member}>
-              <h1>10 박시혁</h1>
-            </div>
-            <div className={styles.member}>
-              <h1>10 박시혁</h1>
-            </div>
-            <div className={styles.member}>
-              <h1>10 박시혁</h1>
-            </div>
-            <div className={styles.member}>
-              <h1>10 박시혁</h1>
-            </div>
-            <div className={styles.member}>
-              <h1>10 박시혁</h1>
-            </div>
-            <div className={styles.member}>
-              <h1>10 박시혁</h1>
-            </div>
-            <div className={styles.member}>
-              <h1>10 박시혁</h1>
-            </div>
-            <div className={styles.member}>
-              <h1>10 박시혁</h1>
-            </div>
-            <div className={styles.member}>
-              <h1>10 박시혁</h1>
-            </div>
-            <div className={styles.member}>
-              <h1>10 박시혁</h1>
-            </div>
+          <section className={styles.cards}>
+            <User name='10 박시혁' isExit={false}></User>
+            <User name='10 박시혁' isExit={true}></User>
+            <User name='10 박시혁' isExit={false}></User>
           </section>
         </section>
         

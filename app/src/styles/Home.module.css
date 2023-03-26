@@ -32,8 +32,9 @@ div.member {
   color: var(--black-text);
 }
 
-div.member.check {
-  border: 1rem solid var(--pink-text);
+div.check {
+  border: 5px solid var(--pink-text);
+  color: var(--pink-text);
 }
 
 /* Mobile */
