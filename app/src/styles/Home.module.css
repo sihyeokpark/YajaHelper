@@ -5,13 +5,19 @@
   min-height: 100vh;
 }
 
-section.container {
+section.cards {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   margin-top: 20px;
   width: 70vw;
   gap: 10px;
+}
+
+section.container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
 }
 
 div.member {
@@ -24,6 +30,10 @@ div.member {
   background-color: var(--white-card);
   border-radius: 10px;
   color: var(--black-text);
+}
+
+div.member.check {
+  border: 1rem solid var(--pink-text);
 }
 
 /* Mobile */

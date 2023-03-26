@@ -19,45 +19,47 @@ export default function Home() {
           
         </nav>
         <section className={styles.container}>
-          <h1>hello</h1>
-          <br></br>
-          <div className={styles.member}>
-            <h1>10 박시혁</h1>
-          </div>
-          <div className={styles.member}>
-            <h1>10 박시혁</h1>
-          </div>
-          <div className={styles.member}>
-            <h1>10 박시혁</h1>
-          </div>
-          <div className={styles.member}>
-            <h1>10 박시혁</h1>
-          </div>
-          <div className={styles.member}>
-            <h1>10 박시혁</h1>
-          </div>
-          <div className={styles.member}>
-            <h1>10 박시혁</h1>
-          </div>
-          <div className={styles.member}>
-            <h1>10 박시혁</h1>
-          </div>
-          <div className={styles.member}>
-            <h1>10 박시혁</h1>
-          </div>
-          <div className={styles.member}>
-            <h1>10 박시혁</h1>
-          </div>
-          <div className={styles.member}>
-            <h1>10 박시혁</h1>
-          </div>
-          <div className={styles.member}>
-            <h1>10 박시혁</h1>
-          </div>
-          <div className={styles.member}>
-            <h1>10 박시혁</h1>
-          </div>
+          <h1>1학년 6반</h1>
+          <section className={`${styles.cards} ${styles.check}`}>
+            <div className={styles.member}>
+              <h1>10 박시혁</h1>
+            </div>
+            <div className={styles.member}>
+              <h1>10 박시혁</h1>
+            </div>
+            <div className={styles.member}>
+              <h1>10 박시혁</h1>
+            </div>
+            <div className={styles.member}>
+              <h1>10 박시혁</h1>
+            </div>
+            <div className={styles.member}>
+              <h1>10 박시혁</h1>
+            </div>
+            <div className={styles.member}>
+              <h1>10 박시혁</h1>
+            </div>
+            <div className={styles.member}>
+              <h1>10 박시혁</h1>
+            </div>
+            <div className={styles.member}>
+              <h1>10 박시혁</h1>
+            </div>
+            <div className={styles.member}>
+              <h1>10 박시혁</h1>
+            </div>
+            <div className={styles.member}>
+              <h1>10 박시혁</h1>
+            </div>
+            <div className={styles.member}>
+              <h1>10 박시혁</h1>
+            </div>
+            <div className={styles.member}>
+              <h1>10 박시혁</h1>
+            </div>
+          </section>
         </section>
+        
       </main>
     </>
   )
