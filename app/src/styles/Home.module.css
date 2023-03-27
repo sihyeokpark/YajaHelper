@@ -11,7 +11,7 @@ section.cards {
   flex-wrap: wrap;
   margin-top: 20px;
   width: 70vw;
-  gap: 10px;
+  gap: 20px;
 }
 
 section.container {
@@ -28,12 +28,26 @@ div.member {
   width: 10vw;
   height: 10vh;
   background-color: var(--white-card);
-  border-radius: 10px;
   color: var(--black-text);
+  border-left: 4px solid var(--gray-text);
+  cursor: pointer;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
 }
 
 div.check {
-  border: 3px solid var(--pink-text);
+  border-left: 4px solid var(--pink-text);
   color: var(--pink-text);
 }
 

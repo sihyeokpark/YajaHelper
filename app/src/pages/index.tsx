@@ -1,3 +1,4 @@
+import { useRef } from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
@@ -9,6 +10,7 @@ import students from './data/six.json'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+  const modalRef = useRef<HTMLDivElement>(null)
   return (
     <>
       <Head>
@@ -18,15 +20,17 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
+        <div ref={modalRef} className={styles.modal}></div>
         <nav>
           
         </nav>
         <section className={styles.container}>
           <h1 className={styles.title}>1학년 6반</h1>
           <section className={styles.cards}>
-            {students.map((student) => 
-              <User name={`${student.number} ${student.name}`} isExit={true}></User>
-            )}
+            {students.map((student) => {
+              if (student.number % 4 == 0) return <User name={`${student.number} ${student.name}`} isExit={true} modal={modalRef}></User>
+              else return <User name={`${student.number} ${student.name}`} isExit={false} modal={modalRef}></User>
+            })}
           </section>
         </section>
         

@@ -2,7 +2,8 @@ import styles from '@/styles/Home.module.css'
 
 type userProps = {
   name: string,
-  isExit: boolean
+  isExit: boolean,
+  modal: React.RefObject<HTMLDivElement>
 }
 
 export default function User(props: userProps) {
