@@ -6,6 +6,9 @@ type userProps = {
 }
 
 export default function User(props: userProps) {
+  function click() {
+    
+  }
   return (
     <div className={(props.isExit) ? `${styles.member} ${styles.check}` : `${styles.member}`}>
       <h1>{props.name}</h1>

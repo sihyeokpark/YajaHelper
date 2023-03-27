@@ -33,10 +33,13 @@ div.member {
 }
 
 div.check {
-  border: 5px solid var(--pink-text);
+  border: 3px solid var(--pink-text);
   color: var(--pink-text);
 }
 
+h1.title {
+  color: var(--black-text);
+}
 /* Mobile */
 @media (max-width: 700px) {
 

@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 
 import User from './components/User'
+import students from './data/six.json'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,11 +22,11 @@ export default function Home() {
           
         </nav>
         <section className={styles.container}>
-          <h1>1학년 6반</h1>
+          <h1 className={styles.title}>1학년 6반</h1>
           <section className={styles.cards}>
-            <User name='10 박시혁' isExit={false}></User>
-            <User name='10 박시혁' isExit={true}></User>
-            <User name='10 박시혁' isExit={false}></User>
+            {students.map((student) => 
+              <User name={`${student.number} ${student.name}`} isExit={true}></User>
+            )}
           </section>
         </section>
         
