@@ -20,7 +20,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <div ref={modalRef} className={styles.modal}></div>
+        <div ref={modalRef} className={styles.modal}>
+          <div className={styles.modalContent}>
+            <h1>외출하시겠습니까?</h1>
+            <p>외출 사유를 선택해주세요.</p>
+          </div>
+        </div>
         <nav>
           
         </nav>
@@ -28,7 +33,7 @@ export default function Home() {
           <h1 className={styles.title}>1학년 6반</h1>
           <section className={styles.cards}>
             {students.map((student) => {
-              if (student.number % 4 == 0) return <User name={`${student.number} ${student.name}`} isExit={true} modal={modalRef}></User>
+              if (student.number % 4 === 0) return <User name={`${student.number} ${student.name}`} isExit={true} modal={modalRef}></User>
               else return <User name={`${student.number} ${student.name}`} isExit={false} modal={modalRef}></User>
             })}
           </section>
