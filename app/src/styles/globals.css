@@ -43,6 +43,13 @@ div.modal {
   width: fit-content;
 }
 
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--pink-text);
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

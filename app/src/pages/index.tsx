@@ -24,6 +24,13 @@ export default function Home() {
           <div className={styles.modalContent}>
             <h1>외출하시겠습니까?</h1>
             <p>외출 사유를 선택해주세요.</p>
+            <div className={styles.flexColumn}>
+              <button>물</button>
+              <button>화장실</button>
+              <button>사물함</button>
+              <button>아날로그 자습실</button>
+              <button>멘토실</button>
+            </div>
           </div>
         </div>
         <nav>

@@ -55,6 +55,16 @@ div.member {
   color: var(--black-text);
 }
 
+.modal div.modalContent h1 {
+  padding: 10px;
+}
+
+.modal div.modalConte
+
+.modal div.modalContent button {
+  margin: 5px;
+}
+
 div.check {
   border-left: 4px solid var(--pink-text);
   color: var(--pink-text);
