@@ -59,10 +59,19 @@ div.member {
   padding: 10px;
 }
 
-.modal div.modalConte
+.modal div.modalContent div.flexColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 5px;
+}
 
 .modal div.modalContent button {
   margin: 5px;
+  width: 200px;
+  font-size: 1rem;
 }
 
 div.check {
